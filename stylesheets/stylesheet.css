@@ -5,6 +5,12 @@
 /* ################################################################ */
 /* global */
 
+body{
+    overflow: hidden;
+    margin: 0px;
+}
+
+
 * {box-sizing: border-box;}
 
 
@@ -46,6 +52,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     width: 99vw;
+    height: 100vh;
     align-content: stretch;
 }
 /* ################################################################ */
